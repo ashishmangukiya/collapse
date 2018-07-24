@@ -1,0 +1,43 @@
+:root{ font-size: 16px;
+		width:100vw;
+
+}
+
+.firstHeading,.secondHeading,.thirdHeading{
+	font-weight: bold;
+	background: green;
+	text-align: center;
+		font-size: 2rem;
+
+	padding:15px;
+	margin: 0px;
+
+}
+.firstHeading a,.secondHeading a,.thirdHeading a{
+	color: black;
+
+	text-decoration: none;
+}
+.firstParagraph,.secondParagraph,.thirdParagraph{
+	background: lightgreen;
+	font-size: 1.5rem;
+	display: none;
+	margin: 0px;
+}
+
+.colp{
+		border: 5px solid green;
+		border-radius: 15px;
+		margin: 0px;
+}
+
+@media only screen and (max-width:200px)
+{
+	.firstHeading,.secondHeading,.thirdHeading{
+		font-size: 1.5rem;
+	}
+	.firstParagraph,.secondParagraph,.thirdParagraph{
+		font-size: 1.2rem;
+	}
+
+}
